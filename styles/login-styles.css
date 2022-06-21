@@ -85,3 +85,13 @@ a {
     color: #6eaa6e;
     text-decoration: none;
 }
+
+/* Invalid value of input */
+.invalid {
+    outline-color: red !important;
+}
+div[id*="invalid"] {
+    color: red;
+    font: normal 15px 'Verdana';
+    margin-bottom: 5px;
+}
